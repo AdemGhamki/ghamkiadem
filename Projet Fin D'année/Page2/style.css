@@ -1,0 +1,1969 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block
+}
+
+progress {
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+figure {
+    margin: 1em 40px
+}
+
+img {
+    border-style: none
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+button,
+input,
+select,
+textarea,
+optgroup {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+
+/* End extract */
+
+html,
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5
+}
+
+html {
+    overflow-x: hidden
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+.adem-serif {
+    font-family: serif
+}
+
+.adem-sans-serif {
+    font-family: sans-serif
+}
+
+.adem-cursive {
+    font-family: cursive
+}
+
+.adem-monospace {
+    font-family: monospace
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0
+}
+
+.adem-wide {
+    letter-spacing: 4px
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0
+}
+
+.adem-image {
+    max-width: 100%;
+    height: auto
+}
+
+img {
+    vertical-align: middle
+}
+
+a {
+    color: inherit
+}
+
+.adem-table,
+.adem-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+.adem-table-all {
+    border: 1px solid #ccc
+}
+
+.adem-bordered tr,
+.adem-table-all tr {
+    border-bottom: 1px solid #ddd
+}
+
+.adem-striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.adem-table-all tr:nth-child(odd) {
+    background-color: #fff
+}
+
+.adem-table-all tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.adem-hoverable tbody tr:hover,
+.adem-ul.adem-hoverable li:hover {
+    background-color: #ccc
+}
+
+.adem-centered tr th,
+.adem-centered tr td {
+    text-align: center
+}
+
+.adem-table td,
+.adem-table th,
+.adem-table-all td,
+.adem-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
+}
+
+.adem-table th:first-child,
+.adem-table td:first-child,
+.adem-table-all th:first-child,
+.adem-table-all td:first-child {
+    padding-left: 16px
+}
+
+.adem-btn,
+.adem-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.adem-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.adem-btn,
+.adem-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.adem-disabled,
+.adem-btn:disabled,
+.adem-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3
+}
+
+.adem-disabled *,
+:disabled * {
+    pointer-events: none
+}
+
+.adem-btn.adem-disabled:hover,
+.adem-btn:disabled:hover {
+    box-shadow: none
+}
+
+.adem-badge,
+.adem-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
+}
+
+.adem-badge {
+    border-radius: 50%
+}
+
+.adem-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+.adem-ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd
+}
+
+.adem-ul li:last-child {
+    border-bottom: none
+}
+
+.adem-tooltip,
+.adem-display-container {
+    position: relative
+}
+
+.adem-tooltip .adem-text {
+    display: none
+}
+
+.adem-tooltip:hover .adem-text {
+    display: inline-block
+}
+
+.adem-ripple:active {
+    opacity: 0.5
+}
+
+.adem-ripple {
+    transition: opacity 0s
+}
+
+.adem-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.adem-select {
+    padding: 9px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc
+}
+
+.adem-dropdown-click,
+.adem-dropdown-hover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer
+}
+
+.adem-dropdown-hover:hover .adem-dropdown-content {
+    display: block
+}
+
+.adem-dropdown-hover:first-child,
+.adem-dropdown-click:hover {
+    background-color: #ccc;
+    color: #000
+}
+
+.adem-dropdown-hover:hover>.adem-button:first-child,
+.adem-dropdown-click:hover>.adem-button:first-child {
+    background-color: #ccc;
+    color: #000
+}
+
+.adem-dropdown-content {
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1
+}
+
+.adem-check,
+.adem-radio {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px
+}
+
+.adem-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto
+}
+
+.adem-bar-block .adem-dropdown-hover,
+.adem-bar-block .adem-dropdown-click {
+    width: 100%
+}
+
+.adem-bar-block .adem-dropdown-hover .adem-dropdown-content,
+.adem-bar-block .adem-dropdown-click .adem-dropdown-content {
+    min-width: 100%
+}
+
+.adem-bar-block .adem-dropdown-hover .adem-button,
+.adem-bar-block .adem-dropdown-click .adem-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
+}
+
+.adem-main,
+#main {
+    transition: margin-left .4s
+}
+
+.adem-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.adem-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px
+}
+
+.adem-bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.adem-center .adem-bar {
+    display: inline-block;
+    width: auto
+}
+
+.adem-bar .adem-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.adem-bar .adem-dropdown-hover,
+.adem-bar .adem-dropdown-click {
+    position: static;
+    float: left
+}
+
+.adem-bar .adem-button {
+    white-space: normal
+}
+
+.adem-bar-block .adem-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.adem-bar-block.adem-center .adem-bar-item {
+    text-align: center
+}
+
+.adem-block {
+    display: block;
+    width: 100%
+}
+
+.adem-responsive {
+    display: block;
+    overflow-x: auto
+}
+
+.adem-container:after,
+.adem-container:before,
+.adem-panel:after,
+.adem-panel:before,
+.adem-row:after,
+.adem-row:before,
+.adem-row-padding:after,
+.adem-row-padding:before,
+.adem-cell-row:before,
+.adem-cell-row:after,
+.adem-clear:after,
+.adem-clear:before,
+.adem-bar:before,
+.adem-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.adem-col,
+.adem-half,
+.adem-third,
+.adem-twothird,
+.adem-threequarter,
+.adem-quarter {
+    float: left;
+    width: 100%
+}
+
+.adem-col.s1 {
+    width: 8.33333%
+}
+
+.adem-col.s2 {
+    width: 16.66666%
+}
+
+.adem-col.s3 {
+    width: 24.99999%
+}
+
+.adem-col.s4 {
+    width: 33.33333%
+}
+
+.adem-col.s5 {
+    width: 41.66666%
+}
+
+.adem-col.s6 {
+    width: 49.99999%
+}
+
+.adem-col.s7 {
+    width: 58.33333%
+}
+
+.adem-col.s8 {
+    width: 66.66666%
+}
+
+.adem-col.s9 {
+    width: 74.99999%
+}
+
+.adem-col.s10 {
+    width: 83.33333%
+}
+
+.adem-col.s11 {
+    width: 91.66666%
+}
+
+.adem-col.s12 {
+    width: 99.99999%
+}
+
+@media (min-width:601px) {
+    .adem-col.m1 {
+        width: 8.33333%
+    }
+    .adem-col.m2 {
+        width: 16.66666%
+    }
+    .adem-col.m3,
+    .adem-quarter {
+        width: 24.99999%
+    }
+    .adem-col.m4,
+    .adem-third {
+        width: 33.33333%
+    }
+    .adem-col.m5 {
+        width: 41.66666%
+    }
+    .adem-col.m6,
+    .adem-half {
+        width: 49.99999%
+    }
+    .adem-col.m7 {
+        width: 58.33333%
+    }
+    .adem-col.m8,
+    .adem-twothird {
+        width: 66.66666%
+    }
+    .adem-col.m9,
+    .adem-threequarter {
+        width: 74.99999%
+    }
+    .adem-col.m10 {
+        width: 83.33333%
+    }
+    .adem-col.m11 {
+        width: 91.66666%
+    }
+    .adem-col.m12 {
+        width: 99.99999%
+    }
+}
+
+@media (min-width:993px) {
+    .adem-col.l1 {
+        width: 8.33333%
+    }
+    .adem-col.l2 {
+        width: 16.66666%
+    }
+    .adem-col.l3 {
+        width: 24.99999%
+    }
+    .adem-col.l4 {
+        width: 33.33333%
+    }
+    .adem-col.l5 {
+        width: 41.66666%
+    }
+    .adem-col.l6 {
+        width: 49.99999%
+    }
+    .adem-col.l7 {
+        width: 58.33333%
+    }
+    .adem-col.l8 {
+        width: 66.66666%
+    }
+    .adem-col.l9 {
+        width: 74.99999%
+    }
+    .adem-col.l10 {
+        width: 83.33333%
+    }
+    .adem-col.l11 {
+        width: 91.66666%
+    }
+    .adem-col.l12 {
+        width: 99.99999%
+    }
+}
+
+.adem-rest {
+    overflow: hidden
+}
+
+.adem-stretch {
+    margin-left: -16px;
+    margin-right: -16px
+}
+
+.adem-content,
+.adem-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.adem-content {
+    max-width: 980px
+}
+
+.adem-auto {
+    max-width: 1140px
+}
+
+.adem-cell-row {
+    display: table;
+    width: 100%
+}
+
+.adem-cell {
+    display: table-cell
+}
+
+.adem-cell-top {
+    vertical-align: top
+}
+
+.adem-cell-middle {
+    vertical-align: middle
+}
+
+.adem-cell-bottom {
+    vertical-align: bottom
+}
+
+.adem-hide {
+    display: none!important
+}
+
+.adem-show-block,
+.adem-show {
+    display: block!important
+}
+
+.adem-show-inline-block {
+    display: inline-block!important
+}
+
+@media (max-width:1205px) {
+    .adem-auto {
+        max-width: 95%
+    }
+}
+
+@media (max-width:600px) {
+    .adem-modal-content {
+        margin: 0 10px;
+        width: auto!important
+    }
+    .adem-modal {
+        padding-top: 30px
+    }
+    .adem-dropdown-hover.adem-mobile .adem-dropdown-content,
+    .adem-dropdown-click.adem-mobile .adem-dropdown-content {
+        position: relative
+    }
+    .adem-hide-small {
+        display: none!important
+    }
+    .adem-mobile {
+        display: block;
+        width: 100%!important
+    }
+    .adem-bar-item.adem-mobile,
+    .adem-dropdown-hover.adem-mobile,
+    .adem-dropdown-click.adem-mobile {
+        text-align: center
+    }
+    .adem-dropdown-hover.adem-mobile,
+    .adem-dropdown-hover.adem-mobile .adem-btn,
+    .adem-dropdown-hover.adem-mobile .adem-button,
+    .adem-dropdown-click.adem-mobile,
+    .adem-dropdown-click.adem-mobile .adem-btn,
+    .adem-dropdown-click.adem-mobile .adem-button {
+        width: 100%
+    }
+}
+
+@media (max-width:768px) {
+    .adem-modal-content {
+        width: 500px
+    }
+    .adem-modal {
+        padding-top: 50px
+    }
+}
+
+@media (min-width:993px) {
+    .adem-modal-content {
+        width: 900px
+    }
+    .adem-hide-large {
+        display: none!important
+    }
+    .adem-sidebar.adem-collapse {
+        display: block!important
+    }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+    .adem-hide-medium {
+        display: none!important
+    }
+}
+
+@media (max-width:992px) {
+    .adem-sidebar.adem-collapse {
+        display: none
+    }
+    .adem-main {
+        margin-left: 0!important;
+        margin-right: 0!important
+    }
+    .adem-auto {
+        max-width: 100%
+    }
+}
+
+.adem-top,
+.adem-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.adem-top {
+    top: 0
+}
+
+.adem-bottom {
+    bottom: 0
+}
+
+.adem-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2
+}
+
+.adem-display-topleft {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.adem-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.adem-display-bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.adem-display-bottomright {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.adem-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.adem-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%)
+}
+
+.adem-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%)
+}
+
+.adem-display-topmiddle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
+}
+
+.adem-display-bottommiddle {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
+}
+
+.adem-display-container:hover .adem-display-hover {
+    display: block
+}
+
+.adem-display-container:hover span.adem-display-hover {
+    display: inline-block
+}
+
+.adem-display-hover {
+    display: none
+}
+
+.adem-display-position {
+    position: absolute
+}
+
+.adem-circle {
+    border-radius: 50%
+}
+
+.adem-round-small {
+    border-radius: 2px
+}
+
+.adem-round,
+.adem-round-medium {
+    border-radius: 4px
+}
+
+.adem-round-large {
+    border-radius: 8px
+}
+
+.adem-round-xlarge {
+    border-radius: 16px
+}
+
+.adem-round-xxlarge {
+    border-radius: 32px
+}
+
+.adem-row-padding,
+.adem-row-padding>.adem-half,
+.adem-row-padding>.adem-third,
+.adem-row-padding>.adem-twothird,
+.adem-row-padding>.adem-threequarter,
+.adem-row-padding>.adem-quarter,
+.adem-row-padding>.adem-col {
+    padding: 0 8px
+}
+
+.adem-container,
+.adem-panel {
+    padding: 0.01em 16px
+}
+
+.adem-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.adem-code,
+.adem-codespan {
+    font-family: Consolas, "courier new";
+    font-size: 16px
+}
+
+.adem-code {
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word
+}
+
+.adem-codespan {
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%
+}
+
+.adem-card,
+.adem-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.adem-card-4,
+.adem-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.adem-spin {
+    animation: adem-spin 2s infinite linear
+}
+
+@keyframes adem-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(359deg)
+    }
+}
+
+.adem-animate-fading {
+    animation: fading 10s infinite
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.adem-animate-opacity {
+    animation: opac 0.8s
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.adem-animate-top {
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.adem-animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.adem-animate-right {
+    position: relative;
+    animation: animateright 0.4s
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.adem-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.adem-animate-zoom {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.adem-animate-input {
+    transition: width 0.4s ease-in-out
+}
+
+.adem-animate-input:focus {
+    width: 100%!important
+}
+
+.adem-opacity,
+.adem-hover-opacity:hover {
+    opacity: 0.60
+}
+
+.adem-opacity-off,
+.adem-hover-opacity-off:hover {
+    opacity: 1
+}
+
+.adem-opacity-max {
+    opacity: 0.25
+}
+
+.adem-opacity-min {
+    opacity: 0.75
+}
+
+.adem-greyscale-max,
+.adem-grayscale-max,
+.adem-hover-greyscale:hover,
+.adem-hover-grayscale:hover {
+    filter: grayscale(100%)
+}
+
+.adem-greyscale,
+.adem-grayscale {
+    filter: grayscale(75%)
+}
+
+.adem-greyscale-min,
+.adem-grayscale-min {
+    filter: grayscale(50%)
+}
+
+.adem-sepia {
+    filter: sepia(75%)
+}
+
+.adem-sepia-max,
+.adem-hover-sepia:hover {
+    filter: sepia(100%)
+}
+
+.adem-sepia-min {
+    filter: sepia(50%)
+}
+
+.adem-tiny {
+    font-size: 10px!important
+}
+
+.adem-small {
+    font-size: 12px!important
+}
+
+.adem-medium {
+    font-size: 15px!important
+}
+
+.adem-large {
+    font-size: 18px!important
+}
+
+.adem-xlarge {
+    font-size: 24px!important
+}
+
+.adem-xxlarge {
+    font-size: 36px!important
+}
+
+.adem-xxxlarge {
+    font-size: 48px!important
+}
+
+.adem-jumbo {
+    font-size: 64px!important
+}
+
+.adem-left-align {
+    text-align: left!important
+}
+
+.adem-right-align {
+    text-align: right!important
+}
+
+.adem-justify {
+    text-align: justify!important
+}
+
+.adem-center {
+    text-align: center!important
+}
+
+.adem-border-0 {
+    border: 0!important
+}
+
+.adem-border {
+    border: 1px solid #ccc!important
+}
+
+.adem-border-top {
+    border-top: 1px solid #ccc!important
+}
+
+.adem-border-bottom {
+    border-bottom: 1px solid #ccc!important
+}
+
+.adem-border-left {
+    border-left: 1px solid #ccc!important
+}
+
+.adem-border-right {
+    border-right: 1px solid #ccc!important
+}
+
+.adem-topbar {
+    border-top: 6px solid #ccc!important
+}
+
+.adem-bottombar {
+    border-bottom: 6px solid #ccc!important
+}
+
+.adem-leftbar {
+    border-left: 6px solid #ccc!important
+}
+
+.adem-rightbar {
+    border-right: 6px solid #ccc!important
+}
+
+.adem-section,
+.adem-code {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+
+.adem-margin {
+    margin: 16px!important
+}
+
+.adem-margin-top {
+    margin-top: 16px!important
+}
+
+.adem-margin-bottom {
+    margin-bottom: 16px!important
+}
+
+.adem-margin-left {
+    margin-left: 16px!important
+}
+
+.adem-margin-right {
+    margin-right: 16px!important
+}
+
+.adem-padding-small {
+    padding: 4px 8px!important
+}
+
+.adem-padding {
+    padding: 8px 16px!important
+}
+
+.adem-padding-large {
+    padding: 12px 24px!important
+}
+
+.adem-padding-16 {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important
+}
+
+.adem-padding-24 {
+    padding-top: 24px!important;
+    padding-bottom: 24px!important
+}
+
+.adem-padding-32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important
+}
+
+.adem-padding-48 {
+    padding-top: 48px!important;
+    padding-bottom: 48px!important
+}
+
+.adem-padding-64 {
+    padding-top: 64px!important;
+    padding-bottom: 64px!important
+}
+
+.adem-padding-top-64 {
+    padding-top: 64px!important
+}
+
+.adem-padding-top-48 {
+    padding-top: 48px!important
+}
+
+.adem-padding-top-32 {
+    padding-top: 32px!important
+}
+
+.adem-padding-top-24 {
+    padding-top: 24px!important
+}
+
+.adem-left {
+    float: left!important
+}
+
+.adem-right {
+    float: right!important
+}
+
+.adem-button:hover {
+    color: #000!important;
+    background-color: #ccc!important
+}
+
+.adem-transparent,
+.adem-hover-none:hover {
+    background-color: transparent!important
+}
+
+.adem-hover-none:hover {
+    box-shadow: none!important
+}
+
+
+/* Colors */
+
+.adem-amber,
+.adem-hover-amber:hover {
+    color: #000!important;
+    background-color: #ffc107!important
+}
+
+.adem-aqua,
+.adem-hover-aqua:hover {
+    color: #000!important;
+    background-color: #00ffff!important
+}
+
+.adem-blue,
+.adem-hover-blue:hover {
+    color: #fff!important;
+    background-color: #2196F3!important
+}
+
+.adem-light-blue,
+.adem-hover-light-blue:hover {
+    color: #000!important;
+    background-color: #87CEEB!important
+}
+
+.adem-brown,
+.adem-hover-brown:hover {
+    color: #fff!important;
+    background-color: #795548!important
+}
+
+.adem-cyan,
+.adem-hover-cyan:hover {
+    color: #000!important;
+    background-color: #00bcd4!important
+}
+
+.adem-blue-grey,
+.adem-hover-blue-grey:hover,
+.adem-blue-gray,
+.adem-hover-blue-gray:hover {
+    color: #fff!important;
+    background-color: #607d8b!important
+}
+
+.adem-green,
+.adem-hover-green:hover {
+    color: #fff!important;
+    background-color: #4CAF50!important
+}
+
+.adem-light-green,
+.adem-hover-light-green:hover {
+    color: #000!important;
+    background-color: #8bc34a!important
+}
+
+.adem-indigo,
+.adem-hover-indigo:hover {
+    color: #fff!important;
+    background-color: #3f51b5!important
+}
+
+.adem-khaki,
+.adem-hover-khaki:hover {
+    color: #000!important;
+    background-color: #f0e68c!important
+}
+
+.adem-lime,
+.adem-hover-lime:hover {
+    color: #000!important;
+    background-color: #cddc39!important
+}
+
+.adem-orange,
+.adem-hover-orange:hover {
+    color: #000!important;
+    background-color: #ff9800!important
+}
+
+.adem-deep-orange,
+.adem-hover-deep-orange:hover {
+    color: #fff!important;
+    background-color: #ff5722!important
+}
+
+.adem-pink,
+.adem-hover-pink:hover {
+    color: #fff!important;
+    background-color: #e91e63!important
+}
+
+.adem-purple,
+.adem-hover-purple:hover {
+    color: #fff!important;
+    background-color: #9c27b0!important
+}
+
+.adem-deep-purple,
+.adem-hover-deep-purple:hover {
+    color: #fff!important;
+    background-color: #673ab7!important
+}
+
+.adem-red,
+.adem-hover-red:hover {
+    color: #fff!important;
+    background-color: #f44336!important
+}
+
+.adem-sand,
+.adem-hover-sand:hover {
+    color: #000!important;
+    background-color: #fdf5e6!important
+}
+
+.adem-teal,
+.adem-hover-teal:hover {
+    color: #fff!important;
+    background-color: #009688!important
+}
+
+.adem-yellow,
+.adem-hover-yellow:hover {
+    color: #000!important;
+    background-color: #ffeb3b!important
+}
+
+.adem-white,
+.adem-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important
+}
+
+.adem-black,
+.adem-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important
+}
+
+.adem-grey,
+.adem-hover-grey:hover,
+.adem-gray,
+.adem-hover-gray:hover {
+    color: #000!important;
+    background-color: #9e9e9e!important
+}
+
+.adem-light-grey,
+.adem-hover-light-grey:hover,
+.adem-light-gray,
+.adem-hover-light-gray:hover {
+    color: #000!important;
+    background-color: #f1f1f1!important
+}
+
+.adem-dark-grey,
+.adem-hover-dark-grey:hover,
+.adem-dark-gray,
+.adem-hover-dark-gray:hover {
+    color: #fff!important;
+    background-color: #616161!important
+}
+
+.adem-pale-red,
+.adem-hover-pale-red:hover {
+    color: #000!important;
+    background-color: #ffdddd!important
+}
+
+.adem-pale-green,
+.adem-hover-pale-green:hover {
+    color: #000!important;
+    background-color: #ddffdd!important
+}
+
+.adem-pale-yellow,
+.adem-hover-pale-yellow:hover {
+    color: #000!important;
+    background-color: #ffffcc!important
+}
+
+.adem-pale-blue,
+.adem-hover-pale-blue:hover {
+    color: #000!important;
+    background-color: #ddffff!important
+}
+
+.adem-text-amber,
+.adem-hover-text-amber:hover {
+    color: #ffc107!important
+}
+
+.adem-text-aqua,
+.adem-hover-text-aqua:hover {
+    color: #00ffff!important
+}
+
+.adem-text-blue,
+.adem-hover-text-blue:hover {
+    color: #2196F3!important
+}
+
+.adem-text-light-blue,
+.adem-hover-text-light-blue:hover {
+    color: #87CEEB!important
+}
+
+.adem-text-brown,
+.adem-hover-text-brown:hover {
+    color: #795548!important
+}
+
+.adem-text-cyan,
+.adem-hover-text-cyan:hover {
+    color: #00bcd4!important
+}
+
+.adem-text-blue-grey,
+.adem-hover-text-blue-grey:hover,
+.adem-text-blue-gray,
+.adem-hover-text-blue-gray:hover {
+    color: #607d8b!important
+}
+
+.adem-text-green,
+.adem-hover-text-green:hover {
+    color: #4CAF50!important
+}
+
+.adem-text-light-green,
+.adem-hover-text-light-green:hover {
+    color: #8bc34a!important
+}
+
+.adem-text-indigo,
+.adem-hover-text-indigo:hover {
+    color: #3f51b5!important
+}
+
+.adem-text-khaki,
+.adem-hover-text-khaki:hover {
+    color: #b4aa50!important
+}
+
+.adem-text-lime,
+.adem-hover-text-lime:hover {
+    color: #cddc39!important
+}
+
+.adem-text-orange,
+.adem-hover-text-orange:hover {
+    color: #ff9800!important
+}
+
+.adem-text-deep-orange,
+.adem-hover-text-deep-orange:hover {
+    color: #ff5722!important
+}
+
+.adem-text-pink,
+.adem-hover-text-pink:hover {
+    color: #e91e63!important
+}
+
+.adem-text-purple,
+.adem-hover-text-purple:hover {
+    color: #9c27b0!important
+}
+
+.adem-text-deep-purple,
+.adem-hover-text-deep-purple:hover {
+    color: #673ab7!important
+}
+
+.adem-text-red,
+.adem-hover-text-red:hover {
+    color: #f44336!important
+}
+
+.adem-text-sand,
+.adem-hover-text-sand:hover {
+    color: #fdf5e6!important
+}
+
+.adem-text-teal,
+.adem-hover-text-teal:hover {
+    color: #009688!important
+}
+
+.adem-text-yellow,
+.adem-hover-text-yellow:hover {
+    color: #d2be0e!important
+}
+
+.adem-text-white,
+.adem-hover-text-white:hover {
+    color: #fff!important
+}
+
+.adem-text-black,
+.adem-hover-text-black:hover {
+    color: #000!important
+}
+
+.adem-text-grey,
+.adem-hover-text-grey:hover,
+.adem-text-gray,
+.adem-hover-text-gray:hover {
+    color: #757575!important
+}
+
+.adem-text-light-grey,
+.adem-hover-text-light-grey:hover,
+.adem-text-light-gray,
+.adem-hover-text-light-gray:hover {
+    color: #f1f1f1!important
+}
+
+.adem-text-dark-grey,
+.adem-hover-text-dark-grey:hover,
+.adem-text-dark-gray,
+.adem-hover-text-dark-gray:hover {
+    color: #3a3a3a!important
+}
+
+.adem-border-amber,
+.adem-hover-border-amber:hover {
+    border-color: #ffc107!important
+}
+
+.adem-border-aqua,
+.adem-hover-border-aqua:hover {
+    border-color: #00ffff!important
+}
+
+.adem-border-blue,
+.adem-hover-border-blue:hover {
+    border-color: #2196F3!important
+}
+
+.adem-border-light-blue,
+.adem-hover-border-light-blue:hover {
+    border-color: #87CEEB!important
+}
+
+.adem-border-brown,
+.adem-hover-border-brown:hover {
+    border-color: #795548!important
+}
+
+.adem-border-cyan,
+.adem-hover-border-cyan:hover {
+    border-color: #00bcd4!important
+}
+
+.adem-border-blue-grey,
+.adem-hover-border-blue-grey:hover,
+.adem-border-blue-gray,
+.adem-hover-border-blue-gray:hover {
+    border-color: #607d8b!important
+}
+
+.adem-border-green,
+.adem-hover-border-green:hover {
+    border-color: #4CAF50!important
+}
+
+.adem-border-light-green,
+.adem-hover-border-light-green:hover {
+    border-color: #8bc34a!important
+}
+
+.adem-border-indigo,
+.adem-hover-border-indigo:hover {
+    border-color: #3f51b5!important
+}
+
+.adem-border-khaki,
+.adem-hover-border-khaki:hover {
+    border-color: #f0e68c!important
+}
+
+.adem-border-lime,
+.adem-hover-border-lime:hover {
+    border-color: #cddc39!important
+}
+
+.adem-border-orange,
+.adem-hover-border-orange:hover {
+    border-color: #ff9800!important
+}
+
+.adem-border-deep-orange,
+.adem-hover-border-deep-orange:hover {
+    border-color: #ff5722!important
+}
+
+.adem-border-pink,
+.adem-hover-border-pink:hover {
+    border-color: #e91e63!important
+}
+
+.adem-border-purple,
+.adem-hover-border-purple:hover {
+    border-color: #9c27b0!important
+}
+
+.adem-border-deep-purple,
+.adem-hover-border-deep-purple:hover {
+    border-color: #673ab7!important
+}
+
+.adem-border-red,
+.adem-hover-border-red:hover {
+    border-color: #f44336!important
+}
+
+.adem-border-sand,
+.adem-hover-border-sand:hover {
+    border-color: #fdf5e6!important
+}
+
+.adem-border-teal,
+.adem-hover-border-teal:hover {
+    border-color: #009688!important
+}
+
+.adem-border-yellow,
+.adem-hover-border-yellow:hover {
+    border-color: #ffeb3b!important
+}
+
+.adem-border-white,
+.adem-hover-border-white:hover {
+    border-color: #fff!important
+}
+
+.adem-border-black,
+.adem-hover-border-black:hover {
+    border-color: #000!important
+}
+
+.adem-border-grey,
+.adem-hover-border-grey:hover,
+.adem-border-gray,
+.adem-hover-border-gray:hover {
+    border-color: #9e9e9e!important
+}
+
+.adem-border-light-grey,
+.adem-hover-border-light-grey:hover,
+.adem-border-light-gray,
+.adem-hover-border-light-gray:hover {
+    border-color: #f1f1f1!important
+}
+
+.adem-border-dark-grey,
+.adem-hover-border-dark-grey:hover,
+.adem-border-dark-gray,
+.adem-hover-border-dark-gray:hover {
+    border-color: #616161!important
+}
+
+.adem-border-pale-red,
+.adem-hover-border-pale-red:hover {
+    border-color: #ffe7e7!important
+}
+
+.adem-border-pale-green,
+.adem-hover-border-pale-green:hover {
+    border-color: #e7ffe7!important
+}
+
+.adem-border-pale-yellow,
+.adem-hover-border-pale-yellow:hover {
+    border-color: #ffffcc
+}
+
+.adem-border-pale-blue,
+.adem-hover-border-pale-blue:hover {
+    border-color: #e7ffff
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 80px;
+}
+
+a:hover {
+    background-color: #04AA6D;
+    color: rgb(0, 0, 0);
+}
+
+.previous {
+    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+}
+
+.next {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
